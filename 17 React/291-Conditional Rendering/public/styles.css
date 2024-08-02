@@ -1,0 +1,32 @@
+.html, body{
+    background: #50a3a2;
+    font-family: "Source Sans Pro", sans-serif;
+}
+.container{
+    width: 250px;
+    text-align: center;
+    margin-left: 42%;
+}
+
+.form{
+    display: flex ;
+    flex-direction: column;
+    margin-top: 30vh;
+}
+
+.form input{
+    border: 1px solid red;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    height: 40px;
+    opacity: 60%;
+    text-align: center;
+}
+.form button{
+    height: 40px;
+    background-color: white;
+    padding: 10px 15px;
+    color: #50a3a2;
+    border-radius: 3px;
+    border: 3px solid white ;
+}

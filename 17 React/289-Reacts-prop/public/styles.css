@@ -1,0 +1,60 @@
+body{
+    font-family: sans-serif;
+    margin: 0 auto;
+    padding: 25px;
+    max-width: 400px;
+    min-width: 400px;
+    background-color: #dfe6e9;
+    text-align: center;
+    color: #2d3436; 
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+}
+
+div .heading{
+    margin: 20px 0;
+}
+
+.card{
+    height: 250px;
+    width: 100%;
+    margin-bottom: 60px;
+    border-radius: 15px; /* Add border-radius to the card */
+    overflow: hidden; /*Ensures that the child elements of the card don’t overflow and break the border radius effect.*/
+    box-shadow: 0 3px 5px 2px gray;
+}
+
+.top{
+    Height: 100px;
+    width: 100%;
+    background-color: #00cec9;
+    display: flex;
+    float: left;
+    align-items: center;
+}
+.top h2{
+    margin-left: 10px;
+}
+.bottom{
+    height: 150px;
+    width: 100%;
+    background-color: #81ecec;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.bottom p{
+    margin-left: 10px;
+    color: #007c7a;
+}
+
+img{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin-top: 100px;
+    margin-left: 100px; 
+    border: 10px solid white;   
+}

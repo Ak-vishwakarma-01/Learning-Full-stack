@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Combining CSS Selectors</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<!-- Don't change any of the HTML code! 
+h1, h2{
+    color: blueviolet;
+}
+
+.box > .done{
+    color: firebrick;
+}
+done class is child of parent box and it only works on the nearest child not to grand child or another leve just nearst .
+
+selector selector{
+  here all the descendent is going to be applied
+  it goes many levels deep
+}
+
+chaining selector
+selectorselectorselector{
+  apply where all selector are true
+}
+
+combining combiners
+ancector chaining
+selector selectorselector{
+
+}
+-->
+
+<body>
+  <h1>To Do List</h1>
+  <h2>Monday</h2>
+  <div class="box">
+    <p class="done">Do these things today!</p>
+    <ul class="list">
+      <li>Wash Clothes</li>
+      <li class="done">Read</li>
+      <li class="done">Maths Questions</li>
+    </ul>
+  </div>
+
+  <ul>
+    <p class="done">Other items</p>
+  </ul>
+  <p>The best preparation for tomorrow is doing your best today.</p>
+
+</body>
+
+</html>
