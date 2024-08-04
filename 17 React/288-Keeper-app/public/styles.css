@@ -77,6 +77,63 @@ body {
   color: white;
 }
 
+.addnote {
+  margin-top: 30px;
+  margin-left: 350px;
+  background-color: white;
+  box-shadow: 0 3px 5px 2px gray;
+  height: 150px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  position: relative; /* Ensure the button is positioned relative to this div */
+  margin-bottom: 30px;
+}
+
+.onload{
+  height: 70px;
+}
+
+.addnote .title,
+.addnote .text {
+  font-size: 18px; /* Increased font size for inputs */
+  font-weight: 300; /* Light font weight */
+  border: none; /* Remove border */
+  outline: none; /* Remove default outline on focus */
+  margin-bottom: 10px; /* Spacing between inputs */
+  padding: 5px 10px; /* Add some padding for better appearance */
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Add subtle shadow for input fields */
+}
+
+.addnote .title {
+  font-size: x-large; 
+  font-weight: 500; 
+  margin-bottom: 10px; /* Spacing between title and text input */
+}
+
+.addnote .text {
+  margin-bottom: 20px; /* Spacing between text input and button */
+}
+
+.addnote button {
+  position: absolute;
+  right: -25px; /* Half the width of the button (50px / 2) */
+  bottom: -25px; /* Half the height of the button (50px / 2) */
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #f5ba13;
+  box-shadow: 0 3px 5px 2px gray;
+  border: none; /* Remove default border */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
+
 .note{
   background: #fff;
   border-radius: 7px;
@@ -95,6 +152,15 @@ body {
   margin-bottom: 10px;
   white-space: pre-wrap; /*This property is a combination of behaviors from the pre and normal values of the white-space property*/
   word-wrap: break-word; /*This property is used to break long words and force them to wrap onto the next line if they exceed the width of their container*/
+}
+
+.note .delete{
+  height: 25px;
+  background-color: white;
+  border: 0px;
+  margin-left: 180px;
+  color: #f5ba13;
+  box-shadow: 0 3px 10px 0.1px gray;
 }
 
 .Footer{
