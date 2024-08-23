@@ -1,0 +1,33 @@
+body{
+    display: inline;
+}
+h1{
+    margin-left: 30%;
+}
+.main{
+    margin-left: 40%;    
+}
+.red{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    margin-bottom: 20px;
+}
+.green{
+    background-color: green;
+    height: 100px;
+    width: 100px;
+    margin-left: 20px;
+}
+.blue{
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    margin-bottom: 20px;
+}
+.yellow{
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+    margin-left: 20px;
+}

@@ -1,0 +1,22 @@
+body{
+    font-style: oblique;
+    height: fit-content;
+    width: fit-content;
+    color:rgb(1, 230, 139);
+}
+h1{
+    font-size: 3rem;
+    margin-left: 300px;
+}
+.dice{
+    margin-left: 550px;
+    display: flex;
+    gap: 20px;
+}
+img{
+    height:50px;
+    width: 50px;
+}
+.marg{
+    margin-left: 500px;
+}
